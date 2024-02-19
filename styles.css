@@ -75,16 +75,23 @@ nav a {
 }
 /* Style the gallery */
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  justify-items: center;
+  align-items: start;
   justify-content: space-between;
-  gap: 20px;
 }
 .gallery figure {
-  flex: 0 0 calc(33.333% - 20px);
+  text-align: center;
+}
+.contact figure {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
 }
 .gallery img {
-  transition: transform 0.3s ease;
+  width: 220px;
 }
 .gallery figcaption {
   margin-top: 10px;
