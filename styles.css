@@ -39,6 +39,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 img {
   max-width: 100%;
@@ -50,7 +51,8 @@ img {
 }
 .logo {
   text-align: left;
-  width: 70px;
+  font-size: 30px;
+  margin-right: 330px;
 }
 .pagenav {
   background-color: #1f1f1f; /* Darker background color */
@@ -66,7 +68,6 @@ nav a {
 .pagenav a:hover {
   background-color: #333; /* Hover background color */
 }
-/* Style the main content */
 .content {
   max-width: 800px;
   margin: 0 auto;
@@ -81,7 +82,6 @@ nav a {
 .return a:hover {
   text-decoration: underline;
 }
-/* Style the gallery */
 .gallery {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -128,7 +128,6 @@ nav a {
 .gallery img:hover {
   transform: scale(1.05);
 }
-/* Style the table */
 table {
   border-collapse: collapse;
   width: 100%;
