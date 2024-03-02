@@ -4,15 +4,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 .wrapper {
+  background: #0d0d0d;
+  width: 1080px;
+  align-content: center;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 30px;
 }
 body {
   font-family: Arial, sans-serif;
   font-size: 18px;
-  background-color: #0d0d0d; /* Dark background color */
+  background-color: #343333; /* Dark background color */
   color: #ffffff; /* Text color */
   line-height: 1.6;
   padding: 20px;
@@ -39,7 +47,6 @@ img {
 /* Style the navigation bar */
 .sitenav {
   text-align: center;
-  padding-top: 20px;
 }
 .logo {
   text-align: left;
