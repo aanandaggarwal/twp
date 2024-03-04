@@ -54,6 +54,10 @@ img {
   font-size: 30px;
   margin-right: 330px;
 }
+.logo:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
 .pagenav {
   background-color: #1f1f1f; /* Darker background color */
   text-align: center;
